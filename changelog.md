@@ -1,5 +1,21 @@
 # Changelog
 
+## [v0.9.2](https://github.com/devlooped/html/tree/v0.9.2) (2022-07-13)
+
+[Full Changelog](https://github.com/devlooped/html/compare/v0.9.1...v0.9.2)
+
+:sparkles: Implemented enhancements:
+
+- Allow opting out of ignoring XML namespaces [\#5](https://github.com/devlooped/html/issues/5)
+- Do not skip any elements by default [\#3](https://github.com/devlooped/html/issues/3)
+- Allow tuning whitespace handling and case folding while reading [\#1](https://github.com/devlooped/html/issues/1)
+
+:twisted_rightwards_arrows: Merged:
+
+- Allow opting out of ignoring XML namespaces [\#6](https://github.com/devlooped/html/pull/6) (@kzu)
+- Simplify post-processing of HTML to basic xmlns stripping [\#4](https://github.com/devlooped/html/pull/4) (@kzu)
+- Allow tuning whitespace handling and case folding while reading [\#2](https://github.com/devlooped/html/pull/2) (@kzu)
+
 ## [v0.9.1](https://github.com/devlooped/html/tree/v0.9.1) (2022-07-13)
 
 [Full Changelog](https://github.com/devlooped/html/compare/v0.9.0...v0.9.1)
