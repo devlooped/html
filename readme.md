@@ -19,6 +19,9 @@ XDocument page = HtmlDocument.Load("page.html")
 Works great when combined with [CSS selectors](https://www.nuget.org/packages/Devlooped.Xml.Css) 
 for XLinq.
 
+Leverages [Microsoft SgmlReader](https://www.nuget.org/packages/Microsoft.Xml.SgmlReader) which 
+converts (almost) all HTML to valid XML.
+
 
 # Dogfooding
 
