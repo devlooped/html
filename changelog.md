@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.9.1](https://github.com/devlooped/html/tree/v0.9.1) (2022-07-13)
+
+[Full Changelog](https://github.com/devlooped/html/compare/v0.9.0...v0.9.1)
+
 ## [v0.9.0](https://github.com/devlooped/html/tree/v0.9.0) (2022-07-13)
 
 [Full Changelog](https://github.com/devlooped/html/compare/07da366455c6863c440a947b1680d746678c1640...v0.9.0)
