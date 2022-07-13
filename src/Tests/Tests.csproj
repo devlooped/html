@@ -21,6 +21,9 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="sample.xhtml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Update="wikipedia.html" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
