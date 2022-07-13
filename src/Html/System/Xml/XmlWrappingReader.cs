@@ -40,7 +40,7 @@ namespace System.Xml
         /// <summary>
         /// Initializes a new instance of the <see cref="XmlWrappingReader"/>.
         /// </summary>
-        /// <param name="baseReader">The underlying reader this instance will wrap.</param>
+        /// <param name="BaseReader">The underlying reader this instance will wrap.</param>
         protected XmlWrappingReader(XmlReader baseReader) => BaseReader = baseReader;
 
         /// <summary>
@@ -64,7 +64,7 @@ namespace System.Xml
         public override bool CanResolveEntity => BaseReader.CanResolveEntity;
 
         /// <summary>
-        /// See <see cref="XmlReader.Dispose(bool)"/>.
+        /// See <see cref="XmlReader.Dispose"/>.
         /// </summary>
         protected override void Dispose(bool disposing)
         {
@@ -78,21 +78,6 @@ namespace System.Xml
         /// See <see cref="XmlReader.Read"/>.
         /// </summary>
         public override bool Read() => BaseReader.Read();
-
-        /// <summary>
-        /// See <see cref="XmlReader.ReadAsync"/>.
-        /// </summary>
-        public override Task<bool> ReadAsync() => BaseReader.ReadAsync();
-
-        /// <summary>
-        /// See <see cref="XmlReader.Skip"/>.
-        /// </summary>
-        public override void Skip() => BaseReader.Skip();
-
-        /// <summary>
-        /// See <see cref="XmlReader.SkipAsync"/>.
-        /// </summary>
-        public override Task SkipAsync() => BaseReader.SkipAsync();
 
         /// <summary>
         /// See <see cref="XmlReader.Close"/>.
