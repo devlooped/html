@@ -7,8 +7,10 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.2.0" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2478" />
     <PackageReference Include="xunit" Version="2.4.1" />
     <PackageReference Include="xunit.runner.visualstudio" Version="2.4.5" PrivateAssets="all" />
+    <PackageReference Include="Microsoft.Xml.SgmlReader" Version="1.8.25" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,10 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="sample.xhtml">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
-    <None Update="wikipedia.html" CopyToOutputDirectory="PreserveNewest" />
+    <None Update="@(None)" CopyToOutputDirectory="PreserveNewest" />
   </ItemGroup>
 
 </Project>
