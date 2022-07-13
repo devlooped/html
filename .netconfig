@@ -144,8 +144,8 @@
 	weak
 [file "src/Html/System/Xml/XmlWrappingReader.cs"]
 	url = https://github.com/devlooped/catbag/blob/main/System/Xml/XmlWrappingReader.cs
-	sha = f7eac4f1ea38182a47579258934cf9f9982dd83c
-	etag = 203f3b4626a86d94e2057c2b2a5b5499c32298159c198dad4efded78bed6d498
+	sha = b1f3e12a7107dc81de53fd0a962bd4a149ab1ef7
+	etag = b2c97f61df993f05a7d6e3627ab10e7933528ad33d91be4ac16323756c522b6b
 	weak
 [file ".github/workflows/pages.yml"]
 	url = https://github.com/devlooped/.github/blob/main/.github/workflows/pages.yml
@@ -159,8 +159,8 @@
 	weak
 [file ".github/workflows/sponsors.yml"]
 	url = https://github.com/devlooped/.github/blob/main/.github/workflows/sponsors.yml
-	sha = 514760df24bd906b9e5d3a56deac0d18cba59a6d
-	etag = 0236ed96c1d11f69b26ac0e039e74107df5731574236e2de2a83152fee5df0a6
+	sha = 8b6384e91fdfcf8f3cc9b3b262a9ca2a1095d06a
+	etag = 2c05a753600913f546c37a2ea9393b3ede3b6f8473e5c2d53462aa7342af7078
 	weak
 [file "Gemfile"]
 	url = https://github.com/devlooped/.github/blob/main/Gemfile
