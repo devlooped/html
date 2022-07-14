@@ -1,5 +1,17 @@
 # Changelog
 
+## [v0.9.3](https://github.com/devlooped/html/tree/v0.9.3) (2022-07-14)
+
+[Full Changelog](https://github.com/devlooped/html/compare/v0.9.2...v0.9.3)
+
+:sparkles: Implemented enhancements:
+
+- Ignore style/script elements by default, allow opting for other elements too [\#8](https://github.com/devlooped/html/issues/8)
+
+:twisted_rightwards_arrows: Merged:
+
+- Ignore style/script elements by default, allow opting for other elements too [\#9](https://github.com/devlooped/html/pull/9) (@kzu)
+
 ## [v0.9.2](https://github.com/devlooped/html/tree/v0.9.2) (2022-07-13)
 
 [Full Changelog](https://github.com/devlooped/html/compare/v0.9.1...v0.9.2)
