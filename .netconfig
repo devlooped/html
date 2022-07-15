@@ -144,8 +144,8 @@
 	weak
 [file "src/Html/System/Xml/XmlWrappingReader.cs"]
 	url = https://github.com/devlooped/catbag/blob/main/System/Xml/XmlWrappingReader.cs
-	sha = b1f3e12a7107dc81de53fd0a962bd4a149ab1ef7
-	etag = b2c97f61df993f05a7d6e3627ab10e7933528ad33d91be4ac16323756c522b6b
+	sha = 53dd653492886bbf796fc7700325cf8a303b096a
+	etag = 8fbcef7ea7f09c79d8bc1c2544002143ae965605d535101f1a306ffa9791eb47
 	weak
 [file ".github/workflows/pages.yml"]
 	url = https://github.com/devlooped/.github/blob/main/.github/workflows/pages.yml
